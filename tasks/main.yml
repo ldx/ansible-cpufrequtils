@@ -30,6 +30,7 @@
     name: ondemand
     state: stopped
     enabled: no
+  ignore_errors: yes
 
 - name: bounce service if necessary
   service:
